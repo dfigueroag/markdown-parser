@@ -85,5 +85,11 @@ public class MarkdownParseTest {
 
         assertArrayEquals(expected, allArrays[7]);
     }
+    @Test
+    public void StupidTest() throws Exception {
+        int expected = 2;
+
+        assertEquals(expected, 1+0);
+    }
     
 }
