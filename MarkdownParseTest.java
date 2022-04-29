@@ -89,7 +89,7 @@ public class MarkdownParseTest {
     public void StupidTest() throws Exception {
         int expected = 2;
 
-        assertEquals(expected, 1+0);
+        assertEquals(expected, 1+1);
     }
     
 }
