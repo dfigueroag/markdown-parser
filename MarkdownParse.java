@@ -48,7 +48,11 @@ public class MarkdownParse {
                 break;
             }
 
-            if (indexBeforeOpenBracket > 0  && markdown.charAt(indexBeforeOpenBracket) != '!') {
+            if(indexBeforeOpenBracket <= 0){
+                indexBeforeOpenBracket = 0;
+            }
+
+            if (markdown.charAt(indexBeforeOpenBracket) != '!') {
                 toReturn.add(markdown.substring(openParen + 1, closeParen));
             }
 
