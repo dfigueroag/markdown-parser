@@ -87,9 +87,8 @@ public class MarkdownParseTest {
     }
     @Test
     public void StupidTest() throws Exception {
-        int expected = 2;
+        int expected = 3;
 
-        assertEquals(expected, 1+1);
+        assertEquals(expected, 1+2);
     }
-    
 }
